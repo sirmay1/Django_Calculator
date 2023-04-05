@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.h1 {
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-top: 2.5%;
+    border-bottom: 2.5px solid white;
+}
+.outer-container {
+    border: 2px solid white;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border: 4px outset white;
+    border-radius: 5px;
+    background-color: rgb(177, 175, 175);
+    width: 400px;
+    height: 460px;
+
+}
+.between-container {
+    margin-top: 2.5%;
+    display: flex;
+    align-items: center;
+}
+.window {
+    border: 4px inset whitesmoke;
+    border-radius: 2.5px;
+    margin-top: 5.5%;
+    margin-left: 10%;
+    width: 300px;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5%;
+}
+.inner-container {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    border-radius: 12px;
+    border: 2px outset white;
+    background-color: silver;
+    padding-top: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.row {
+    border: 3px outset white;
+    border-radius: 2.5%;
+    color: black;
+    background-color: rgb(214, 208, 208);
+    width: 60px;
+    height: 55px;
+    padding: 1%;
+    font-family: Verdana;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.row:hover {
+    border: 3px inset white;
+    background-color: gray;
+    color: white;
+}
+.vector-1, .vector-2, .vector-3, .vector-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+

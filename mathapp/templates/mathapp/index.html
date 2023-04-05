@@ -1,0 +1,43 @@
+{% extends 'mathapp/base.html' %}
+
+<title>{% block title %}{% endblock %}</title>
+
+
+{% block content %}
+
+<h1 class="h1">Calculator</h1>
+<br><br>
+<div class="outer-container">
+    <div class="between-container">
+        <input type="text" class="window" name="window" value=""/>
+    </div>
+    <div class="inner-container">
+        <div class="col vector-1">
+            <button type='button' class="row row-1-1">7</button>
+            <button type='button' class="row row-1-2">8</button>
+            <button type='button' class="row row-1-3">9</button>
+            <button type='button' class="row row-1-4">x</button>
+        </div>
+        <div class="col vector-2">
+            <button type='button' class="row row-2-1">4</button>
+            <button type='button' class="row row-2-2">5</button>
+            <button type='button' class="row row-2-3">6</button>
+            <button type='button' class="row row-2-4">+</button>
+        </div>
+        <div class="col vector-3">
+            <button type='button' class="row row-3-1">1</button>
+            <button type='button' class="row row-3-2">2</button>
+            <button type='button' class="row row-3-3">3</button>
+            <button type='button' class="row row-3-4">-</button>
+        </div>
+        <div class="col vector-4">
+            <button type='button' class="row row-4-1">CE</button>
+            <button type='button' class="row row-4-2">0</button>
+            <button type='button' class="row row-4-3">%</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+
